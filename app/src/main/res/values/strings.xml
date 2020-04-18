@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Orcs and Dwarves</string>
+    <string name="store_name">Orcs and Dwarves</string>
+    <string name="store_phone">(636) 555&#8211;1212</string>
+    <string name="store_address">15 Main Street</string>
+    <string name="store_city">St. Charles, MO  63301</string>
+    <string name="store_open_days">Mo, Tu, We, Th, Fr, Sa</string>
+    <string name="store_open_hours">10:00 AM to 8:00 PM Central</string>
+    <string name="store_description">Your one stop shopping location for all things related to
+        miniature war gaming!  Whether you\'re into Warhammer 40K or Battletech
+        we\'ve got you covered.  Come check us out!</string>
+    <string name="miniature_image_description">Picture of Stormcast Eternal miniature.</string>
+</resources>

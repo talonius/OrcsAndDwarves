@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_font_size">36sp</dimen>
+    <dimen name="default_font_size">18sp</dimen>
+    <dimen name="description_font_size">14sp</dimen>
+    <dimen name="header_padding">16dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+    <string name="default_font_family"><![CDATA[sans-serif]]></string>
+</resources>

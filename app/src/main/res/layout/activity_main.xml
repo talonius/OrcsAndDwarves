@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/store_name"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="@dimen/header_padding"
+        android:text="@string/store_name"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/header_font_size" />
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/miniature_image_description"
+        android:id="@+id/background_image"
+        android:layout_below="@id/store_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scaleType="fitCenter"
+        android:paddingTop="@dimen/default_padding"
+        android:src="@drawable/miniature" />
+
+    <TextView
+        android:id="@+id/store_address"
+        android:layout_below="@id/store_name"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingEnd="@dimen/default_padding"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding"
+        android:paddingStart="@dimen/default_padding"
+        android:text="@string/store_address"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/default_font_size" />
+
+    <TextView
+        android:id="@+id/store_city"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/store_address"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingEnd="@dimen/default_padding"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding"
+        android:paddingStart="@dimen/default_padding"
+        android:text="@string/store_city"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/default_font_size" />
+
+    <TextView
+        android:id="@+id/store_phone"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/store_city"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingEnd="@dimen/default_padding"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding"
+        android:paddingStart="@dimen/default_padding"
+        android:text="@string/store_phone"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/default_font_size" />
+
+    <TextView
+        android:id="@+id/store_open_days"
+        android:layout_below="@id/background_image"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/store_open_days"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/default_font_size" />
+
+    <TextView
+        android:id="@+id/store_open_hours"
+        android:layout_below="@id/store_open_days"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/store_open_hours"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/default_font_size" />
+
+    <TextView
+        android:id="@+id/store_description"
+        android:layout_below="@id/store_open_hours"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="@dimen/default_padding"
+        android:text="@string/store_description"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/description_font_size" />
+
+</RelativeLayout>
